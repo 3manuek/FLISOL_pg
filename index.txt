@@ -1,0 +1,18 @@
+= PostgreSQL
+:copyright: 2ndQuadrant Limited 2008-14
+:author: Emanuel Calvo
+La base de datos más impronunciable del planeta.
+// or your name in case of conference presentation
+
+== Slide title
+
+* List, *bold*, _italic_, +COMMAND+
+** Sublist
+
+image::img/example.png[]
+// [scaledwidth="90%"] to scale images
+
+== Conclusions
+
+Questions?
+
