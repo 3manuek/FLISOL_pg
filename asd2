@@ -1,0 +1,45 @@
+
+//:encoding: ISO-8859-1
+:encoding: UTF-8
+
+= PostgreSQL 
+:copyright: 2ndQuadrant Limited 2008-14
+:author: Emanuel Calvo - FLISOL 2014 - CABA
+// or your name in case of conference presentation
+
+== Acerca de mi
+
+// * List, *bold*, _italic_, +COMMAND+
+// ** Sublist
+
+* Actualmente, trabajo como Consultor en *2ndQuadrant*.
+* Trabajo con Software Libre desde hace unos anyos.
+** Pero no soy taaaan viejo.
+* Si quieren ms detalles, busquenm en LinkedIn.
+* Mi twitter es @3manuek
+
+// TIP: Shit is comming
+
+image::img/example.png[]
+// [scaledwidth="90%"] to scale images
+
+== Acerca de 2ndQuadrant
+
+* Compaa dedicada 100% a PostgreSQL
+* La empresa da soporte, consultora y desarrolla PostgreSQL
+** Parches y nuevas caractersticas (Ej: BDR, ndices minmax )
+
+== que va la charla?
+
+TIP: No tengo la ms remota idea de lo que veremos, pero espero que hayan trado vuestras laptops.
+
+WARNING: Considero que al menos tienen todos los asistentes conocimientos MUY bsicos de lo que es SQL.
+
+IMPORTANT: No acepto preguntas sobre "el sentido de la vida", todos sabemos que es 42.
+
+CAUTION: Una vez que vea PostgreSQL, ya no hay vuelta atrs.
+
+== Conclusions
+
+Questions?
+

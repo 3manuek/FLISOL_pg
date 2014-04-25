@@ -7,8 +7,11 @@ SLIDY=$(HTML)
 
 .SILENT:
 
-all : doc slidy
+#convert:
+#	iconv -tUTF-8 -fISO-8859-1 --verbose oldindex > index.txt
 
+all : doc slidy
+      
 help :
 	@echo "targets available: all clean help doc slidy validate"
 
@@ -25,7 +28,7 @@ validate :
 	done
 
 %.pdf : %.txt Makefile common/pdf_courses.xsl
-	a2x --xsl-file=common/pdf_courses.xsl --fop -f pdf --xsltproc-opts="--stringparam copyrightyear $$(date +%Y) --stringparam copyrightholder '2ndQuadrant Limited' --stringparam footer.image.filename ./common/logo.png" $<
+	a2x --attribute encoding=UTF-8 -a lang=es --xsl-file=common/pdf_courses.xsl --fop -f pdf --xsltproc-opts="--stringparam copyrightyear $$(date +%Y) --stringparam copyrightholder '2ndQuadrant Limited' --stringparam footer.image.filename ./common/logo.png" $<
 	echo "PDF file is $(PDF)"
 
 %.html : %.txt Makefile common/slidy.css common/asciidoc.conf

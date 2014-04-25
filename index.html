@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
 <head>
 <title>PostgreSQL</title>
 <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
 <meta name="copyright" content="Copyright &#169; 2ndQuadrant Limited 2008-14" />
-<meta name="generator" content="AsciiDoc 8.6.6" />
+<meta name="generator" content="AsciiDoc 8.6.7" />
 <link rel="stylesheet" href="common/asciidoc.css" type="text/css" />
 <link rel="stylesheet" href="common/slidy.css" type="text/css" />
 <script src="common/slidy.js" charset="utf-8" type="text/javascript"></script>
@@ -13,23 +13,38 @@
 <body class="article">
 <div id="header" class="slide">
 <h1>PostgreSQL</h1>
-<span id="author">Emanuel Calvo</span><br />
+<span id="author">Emanuel Calvo - FLISOL 2014 - CABA</span><br />
 </div>
 <div class="sect1 slide">
-<h1 id="_slide_title">Slide title</h1>
+<h1 id="_acerca_de_mi">Acerca de mi</h1>
 <div class="sectionbody">
 <ul class="">
 <li>
 <span>
-List, <strong>bold</strong>, <em>italic</em>, <tt>COMMAND</tt>
+Actualmente, trabajo como Consultor en <strong>2ndQuadrant</strong>.
+</span>
+</li>
+<li>
+<span>
+Trabajo con Software Libre desde hace unos años.
 </span>
 <ul class="">
 <li>
 <span>
-Sublist
+Pero no soy taaaan viejo.
 </span>
 </li>
 </ul>
+</li>
+<li>
+<span>
+Si quieren más detalles, busquenmé en LinkedIn.
+</span>
+</li>
+<li>
+<span>
+Mi twitter es @3manuek
+</span>
 </li>
 </ul>
 <div class="imageblock">
@@ -40,9 +55,170 @@ Sublist
 </div>
 </div>
 <div class="sect1 slide">
-<h1 id="_conclusions">Conclusions</h1>
+<h1 id="_acerca_de_2ndquadrant">Acerca de 2ndQuadrant</h1>
 <div class="sectionbody">
-<div class="paragraph"><p>Questions?</p></div>
+<ul class="">
+<li>
+<span>
+Compañía dedicada 100% a PostgreSQL
+</span>
+</li>
+<li>
+<span>
+La empresa da soporte, consultoría y desarrolla PostgreSQL
+</span>
+<ul class="">
+<li>
+<span>
+Parches y nuevas características (Ej: BDR, Índices minmax )
+</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_algunas_cosas_a_saber_previo_a_la_charla_taller">Algunas cosas a saber previo a la charla/taller</h1>
+<div class="sectionbody">
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Sugerencia</div>
+</td>
+<td class="content">No tengo la más remota idea de lo que veremos, pero espero que hayan traído vuestras laptops.</td>
+</tr></table>
+</div>
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Aviso</div>
+</td>
+<td class="content">Considero que al menos tienen todos los asistentes conocimientos MUY básicos de lo que es SQL.</td>
+</tr></table>
+</div>
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Importante</div>
+</td>
+<td class="content">No acepto preguntas sobre "el sentido de la vida", todos sabemos que es 42.</td>
+</tr></table>
+</div>
+<div class="admonitionblock">
+<table><tr>
+<td class="icon">
+<div class="title">Atención</div>
+</td>
+<td class="content">Una vez que vea PostgreSQL, ya no hay vuelta atrás.</td>
+</tr></table>
+</div>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_características_actuales">Características actuales</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Replicación por streaming (asincrónica y sincrónica)
+</span>
+</li>
+<li>
+<span>
+SQL compatible con el estándar SQL:2008
+</span>
+</li>
+<li>
+<span>
+Tablas foráneas y efímeras
+</span>
+</li>
+<li>
+<span>
+Seguridad compatible con Kerberos, LDAP, MD5.
+</span>
+</li>
+<li>
+<span>
+Soporte de funciones y "procedimientos"
+</span>
+<ul class="">
+<li>
+<span>
+Tiene su lenguaje propio: plpgsql
+</span>
+</li>
+<li>
+<span>
+Tiene PLs para varios lenguajes (PLPython, PLperl, entre otros)
+</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_por_donde_comenzar">¿Por donde comenzar?</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+www.postgresql.org
+</span>
+</li>
+<li>
+<span>
+wiki.postgresql.prg
+</span>
+</li>
+<li>
+<span>
+Listas de correo (muchas).
+</span>
+</li>
+<li>
+<span>
+Otros sitios:
+</span>
+<ul class="">
+<li>
+<span>
+<a href="http://www.postgresqlforbeginners.com/">http://www.postgresqlforbeginners.com/</a>
+</span>
+</li>
+</ul>
+</li>
+<li>
+<span>
+www.pgxn.org
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_soporte">Soporte</h1>
+<div class="sectionbody">
+<ul class="">
+<li>
+<span>
+Está desarrollado en C-89, por lo que es muy compatible con +30 OS.
+</span>
+</li>
+<li>
+<span>
+También Uindous.
+</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect1 slide">
+<h1 id="_conclusiones">Conclusiones</h1>
+<div class="sectionbody">
+<div class="paragraph"><p>¿Preguntas?</p></div>
 </div>
 </div>
 </body>

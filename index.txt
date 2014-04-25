@@ -1,18 +1,70 @@
+
+:encoding: UTF-8
+
 = PostgreSQL
 :copyright: 2ndQuadrant Limited 2008-14
-:author: Emanuel Calvo
-La base de datos más impronunciable del planeta.
+:author: Emanuel Calvo - FLISOL 2014 - CABA
 // or your name in case of conference presentation
 
-== Slide title
+== Acerca de mi
 
-* List, *bold*, _italic_, +COMMAND+
-** Sublist
+// * List, *bold*, _italic_, +COMMAND+
+// ** Sublist
+
+* Actualmente, trabajo como Consultor en *2ndQuadrant*.
+* Trabajo con Software Libre desde hace unos años.
+** Pero no soy taaaan viejo.
+* Si quieren más detalles, busquenmé en LinkedIn.
+* Mi twitter es @3manuek
+
+// TIP: Shit is comming
 
 image::img/example.png[]
 // [scaledwidth="90%"] to scale images
 
-== Conclusions
+== Acerca de 2ndQuadrant
 
-Questions?
+* Compañía dedicada 100% a PostgreSQL
+* La empresa da soporte, consultoría y desarrolla PostgreSQL
+** Parches y nuevas características (Ej: BDR, Índices minmax )
 
+== Algunas cosas a saber previo a la charla/taller
+
+TIP: No tengo la más remota idea de lo que veremos, pero espero que hayan traído vuestras laptops.
+
+WARNING: Considero que al menos tienen todos los asistentes conocimientos MUY básicos de lo que es SQL.
+
+IMPORTANT: No acepto preguntas sobre "el sentido de la vida", todos sabemos que es 42.
+
+CAUTION: Una vez que vea PostgreSQL, ya no hay vuelta atrás.
+
+== Características actuales
+
+* Replicación por streaming (asincrónica y sincrónica)
+* SQL compatible con el estándar SQL:2008
+* Tablas foráneas y efímeras
+* Seguridad compatible con Kerberos, LDAP, MD5.
+* Soporte de funciones y "procedimientos"
+** Tiene su lenguaje propio: plpgsql
+** Tiene PLs para varios lenguajes (PLPython, PLperl, entre otros)
+
+
+== ¿Por donde comenzar?
+
+* www.postgresql.org
+* wiki.postgresql.prg
+* Listas de correo (muchas).
+* Otros sitios:
+** http://www.postgresqlforbeginners.com/
+* www.pgxn.org
+
+== Soporte
+
+* Está desarrollado en C-89, por lo que es muy compatible con +30 OS.
+* También Uindous.
+
+
+
+== Conclusiones
+
+¿Preguntas?

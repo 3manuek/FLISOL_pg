@@ -1,0 +1,5 @@
+#!/bin/bash
+iconv -tUTF-8 -fISO-8859-1 --verbose oldindex > index.txt 
+sleep 1
+make
+
